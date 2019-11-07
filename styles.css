@@ -39,12 +39,12 @@ img {
 /****** Call To Action ******/
 
 .call-to-action {
-    color: black;
-    padding: 10px 20px;
-    cursor: pointer;
-    border-radius: 50px;
     border: none;
+    border-radius: 50px;
+    color: black;
+    cursor: pointer;
     font-weight: 700;
+    padding: 10px 20px;
 }
 
 .pink {
