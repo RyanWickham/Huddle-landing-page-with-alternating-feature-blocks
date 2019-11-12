@@ -111,7 +111,11 @@ header {
 /***** Build Your Community *****/
 
 #buildYourCommunity {
+    margin: 8em auto 2em auto;
     padding: 5% 0 10% 0;
+    position: relative;
+    top: -3em;
+    color: black;
     width: 90%;
 }
 
@@ -126,6 +130,11 @@ footer {
     font-weight: 400;
     margin: 0;
     padding: 0;
+}
+
+.footer-content {
+    position: relative;
+    top: -3em;
 }
 
 footer .logo {
@@ -153,6 +162,10 @@ footer section p {
    margin: 0 auto 0 0;
 }
 
+.footer-quick-link {
+    margin-top: 2.5em;
+}
+
 .footer-social-icons {
     text-align: center;
 }
@@ -167,4 +180,13 @@ footer section p {
 .copyright-info {
     text-align: center;
     font-size: 0.6em;
+}
+
+.attribution {
+    /* font-size: 0.85em; */
+    text-align: center;
+  }
+
+.attribution a {
+    color: hsl(322, 100%, 66%);
 }
