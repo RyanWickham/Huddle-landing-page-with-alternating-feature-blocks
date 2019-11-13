@@ -31,9 +31,27 @@ p {
     line-height: 1.5em;
 }
 
+.img-container {
+    width: 100%;
+}
+
 img {
     margin: 0 auto;
     width: 90%;
+}
+
+@media only screen and (min-width: 1000px) {
+    .img-container {
+        width: 50%;
+    }
+
+    /*Used for ordering the content in dives on desktops*/
+    .order-left {
+        order: 1;
+    }
+    .order-right {
+        order: 2;
+    }
 }
 
 /****** Call To Action ******/
@@ -53,7 +71,7 @@ img {
 }
 
 .white {
-    background-color: hsl(193, 100%, 96%);
+    background-color: white;
 }
 
 /****** Top Section ******/
@@ -84,10 +102,31 @@ header {
     padding-bottom: 2em;
 }
 
-.top-section-content > .call-to-action {
-    margin: 1em auto 4em auto;
+.top-section-content .call-to-action {
+    margin: 1em auto 3em auto;
     padding: 5% 0px;
     width: 80%;
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .top-section {
+        background-image: url(./images/bg-hero-desktop.svg);
+    }
+
+    .top-section-content {
+        display: flex;
+        text-align: left;
+        margin: auto 0 auto 5%;
+    }
+
+    .left-side {
+        width: 50%;
+    }
+
+    .top-section-content img {
+        margin: auto 0 auto auto;
+    }
 }
 
 /****** Panels ******/
@@ -98,14 +137,32 @@ header {
     text-align: center;
     border-radius: 5%;
     box-shadow: 5px;
-    padding: 10%;
+    padding: 5%;
     box-shadow: 0px 0px 20px 1px #a7a6a6a1;
     background-color: white;
 }
 
-.panel > p {
+.panel p {
     color: hsl(208, 11%, 55%);
     font-size: 0.78em;
+}
+
+@media only screen and (min-width: 1000px) {
+    .panel {
+        display: flex;
+        align-content: space-between;
+    }
+
+    .panel-text{
+        margin: auto auto;
+        text-align: left;
+        width: 45%;
+        float:
+    }
+
+    .panel img {
+        padding: 1em;
+    }
 }
 
 /***** Build Your Community *****/
