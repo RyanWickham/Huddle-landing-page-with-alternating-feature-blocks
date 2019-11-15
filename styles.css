@@ -239,14 +239,14 @@ footer .logo {
     width: 50%;
 }
 
-footer section {
+footer .element {
     align-items: flex-start;
     display: flex;
     flex-direction: row;
     margin: 1em 2.5em 1em 1em;
 }
 
-footer section p {
+footer .element p {
     margin: 0;
     padding: 0;
     width: 90%;
